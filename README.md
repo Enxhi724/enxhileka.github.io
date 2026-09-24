@@ -1,43 +1,26 @@
-# Enxhi Leka’s website
+# Enxhi Leka
 
-A plain HTML and CSS academic website for GitHub Pages. No build step, package installation, or JavaScript is required.
+I am a post-doctoral researcher in Economics at Institut Mines-Télécom Business School (IMT-BS), working with the [MEDEI project](https://www.imt.fr/projet/medei-la-decarbonation-acceleree-de-lenergie-et-de-lindustrie/). I earned my PhD in Economics from IMT-BS in 2025 under the supervision of Professor Grazia Cecere.
 
-## Preview locally
+My research lies at the intersection of digital economics, regulation, and data infrastructure. I use empirical and quantitative methods to study how data regulation shapes data flows, data center locations, the economics of the Internet backbone, and spatial competition among cloud service providers.
 
-1. Open this repository folder in Visual Studio Code (File → Open Folder).
-2. Install the **Live Server** extension by Ritwick Dey if needed.
-3. Right-click **index.html** and select **Open with Live Server**.
-4. Use the Home, Research, Teaching, and CV links. Saved edits refresh automatically.
+## Research interests
 
-You can also double-click index.html to open it directly in your browser; a local server gives a more consistent PDF preview.
+Digital economics, management of information systems, artificial intelligence, economics of data flows, cloud technologies, digital sovereignty, privacy regulations, and competition.
 
-## Edit content
+## Education
 
-- index.html: biography, research interests, and education.
-- research.html: papers, conferences, seminars, and talks.
-- teaching.html: courses and institutions.
-- cv.html: CV viewer and download links.
-- assets/cv.pdf: replace this file to update the CV (keep the filename).
-- assets/style.css: shared colors, typography, spacing, and mobile layout.
+- **PhD in Economics (2025)** — Institut Mines-Télécom Business School.
+- **Master’s in Network Industries and Digital Economics (IREN)** — Université Paris-Saclay, in a joint programme with Université Paris Dauphine, École Polytechnique, CentraleSupélec, and Télécom Paris, specializing in Digital Economics and Quantitative Research.
+- **Bachelor’s in Applied Economics** — Université Paris-Saclay.
 
-The header and footer are intentionally plain HTML. To change navigation or contact details, update all four HTML files.
+## News
 
-## Publish with GitHub Pages
+Best Digital Economy Paper Award for Young Researcher at CRESSE 2026 with the paper “Is Digital Sovereignty Achievable? Evidence From Server Locations and Data Flows”.
 
-1. In GitHub Desktop, review the changes, write a commit summary, click **Commit to main**, then **Push origin** (or **Publish repository** if needed). Keep the repository public for GitHub Free.
-2. On GitHub, open the repository → **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select the branch you pushed (normally **main**) and **/(root)**, then **Save**.
-5. When deployment finishes, visit https://enxhileka.github.io/.
+## Contact
 
-The .nojekyll file tells GitHub Pages to serve the static files directly. All internal links are relative, so local previews and GitHub Pages both work.
+[enxhi.leka@imt-bs.eu](mailto:enxhi.leka@imt-bs.eu)
 
-## Content source
-
-Migrated from https://sites.google.com/view/enxhi-leka/ on 24 September 2026. Original sections and factual content are retained; spacing, capitalization, and date presentation are normalized. The CV is the original public PDF from the existing site. No analytics, external fonts, or third-party scripts are loaded.
-
-Original page banner photographs and the IMT Business School logo are stored locally in assets/images/. Each page uses its corresponding original banner.
-
-## Add a news update
-
-Open index.html and search for the NEWS comment. Inside the News box, remove the “Updates coming soon.” paragraph and copy the article example from the comment into the visible HTML (outside the comment). Set the date and update text; place newer articles first. You may include links to papers, events, or other pages. Save to refresh the preview, then commit and push to publish.
+Institut Mines-Télécom Business School  
+9 rue Charles Fourier · 91000 Évry, France
