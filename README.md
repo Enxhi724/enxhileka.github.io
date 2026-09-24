@@ -37,3 +37,7 @@ The .nojekyll file tells GitHub Pages to serve the static files directly. All in
 Migrated from https://sites.google.com/view/enxhi-leka/ on 24 September 2026. Original sections and factual content are retained; spacing, capitalization, and date presentation are normalized. The CV is the original public PDF from the existing site. No analytics, external fonts, or third-party scripts are loaded.
 
 Original page banner photographs and the IMT Business School logo are stored locally in assets/images/. Each page uses its corresponding original banner.
+
+## Add a news update
+
+Open index.html and search for the NEWS comment. Inside the News box, remove the “Updates coming soon.” paragraph and copy the article example from the comment into the visible HTML (outside the comment). Set the date and update text; place newer articles first. You may include links to papers, events, or other pages. Save to refresh the preview, then commit and push to publish.

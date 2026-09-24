@@ -9,3 +9,21 @@
 @media(max-width:650px){.institution-logo{width:70px;height:40px}.brand{gap:13px}.photo-banner{min-height:210px}.photo-banner--home{min-height:260px}.banner-content{padding-top:36px;padding-bottom:36px}.banner-content p{font-size:1rem}.banner-shade{background:rgba(6,25,38,.5)}.photo-banner+main{padding-top:30px}}
 @media print{.photo-banner,.photo-banner--home{min-height:0;background:none;display:block;margin-bottom:24px}.banner-image,.banner-shade{display:none}.banner-content{color:#202b35;padding:0}.banner-content h1{text-shadow:none}.banner-content p{color:#202b35}}
 @media(max-width:650px){nav{width:100%;justify-content:space-between;gap:12px}}
+
+/* Home page introduction and editable news sidebar. */
+.intro-layout{display:grid;grid-template-columns:minmax(0,2.1fr) minmax(250px,1fr);gap:42px;align-items:start}
+.intro-layout .bio>p:last-child{margin-bottom:0}
+.news-box{background:var(--soft);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:3px;padding:24px;overflow-wrap:anywhere}
+.news-box h2{font-size:1.65rem;margin-bottom:20px}
+.news-empty{color:var(--muted);margin:0;font-size:1rem}
+.news-item+.news-item{border-top:1px solid var(--line);margin-top:20px;padding-top:20px}
+.news-item time{display:block;color:var(--accent);font-size:.875rem;font-weight:600;margin-bottom:8px}
+.news-item p{font-size:1rem;line-height:1.65;margin-bottom:0}
+@media(max-width:800px){.intro-layout{grid-template-columns:1fr;gap:28px}}
+@media print{.intro-layout{display:block}.news-box{margin-top:24px;break-inside:avoid}}
+
+/* Working-paper abstracts. */
+.working-paper+.working-paper{margin-top:32px;padding-top:28px;border-top:1px solid var(--line)}
+.working-paper h3{font-size:1.15rem;line-height:1.5;margin-bottom:14px}
+.paper-abstract{font-size:1rem;line-height:1.8;color:var(--muted);margin-bottom:0}
+.paper-abstract strong{color:var(--ink);font-weight:600}
